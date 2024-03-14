@@ -1,0 +1,15 @@
+.error {
+  display: flex;
+  justify-content: center;
+  margin-top: 10%;
+}
+
+.message {
+  width: 50%;
+  height: 150px;
+  width: 50%;
+}
+
+.message h1 {
+  color: white;
+}

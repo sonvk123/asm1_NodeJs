@@ -1,0 +1,20 @@
+.MoviesList,
+h1 {
+  margin-left: 24px;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  scrollbar-width: thin;
+}
+
+.list ::-webkit-scrollbar {
+  display: none;
+}
+
+.list:hover {
+  scrollbar-color: #ff0000 transparent; /* Hiệu ứng màu khi hover lên thanh cuộn tùy ý */
+}

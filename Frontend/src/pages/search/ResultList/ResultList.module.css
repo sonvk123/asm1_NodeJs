@@ -1,0 +1,22 @@
+.ResultList {
+  margin: 0 24px;
+}
+.ResultList h1 {
+  color: white;
+  margin-bottom: 24px;
+}
+.image {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 28px;
+}
+
+.ResultList img {
+  width: 200px;
+  height: 250px;
+  margin-right: 10px;
+  transition: transform 450ms;
+}
+.ResultList img:hover {
+  transform: scale(1.1);
+}

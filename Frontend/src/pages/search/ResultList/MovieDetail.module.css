@@ -1,0 +1,28 @@
+.MovieDetail{
+  padding: 48px;
+  display: flex;
+  gap:24px;
+  color:white
+}
+/* đường kẻ  */
+.line{
+  font-size: 2px;
+  background-color: white;
+}
+.info{
+  flex:1;
+
+}
+.video {
+  flex:1;
+  border-radius: 10px;
+}
+.video iframe{
+  border-radius: 10px;
+}
+.image {
+  height: 390px;
+  width: 640px;
+  flex: 1;
+  border-radius: 10px;
+}

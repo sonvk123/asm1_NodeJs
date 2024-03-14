@@ -1,0 +1,51 @@
+/* tạo css cho toàn trang */
+.Banner {
+  padding-left: 24px;
+  height: 550px;
+  color: white;
+  display: flex;
+  justify-content: left;
+}
+/* tạo css cho thong tin phim */
+.content {
+  margin-top: 50px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+}
+.banner_title {
+  font-size: 3rem;
+  font-weight: 800;
+  padding-bottom: 0.3rem;
+}
+/* các nút nhấn */
+
+.button button {
+  margin-left: 24px;
+  cursor: pointer;
+  color: white;
+  outline: none;
+  border: none;
+  font-weight: 700;
+  border-radius: 0.2vw;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  margin-right: 1rem;
+  background-color: rgb(51, 51, 51, 0.5);
+}
+.button button:hover {
+  color: #000;
+  background-color: #e6e6e6;
+  transition: all 0.2s;
+}
+
+.banner_description {
+  width: 45rem;
+  line-height: 1.3;
+  font-size: 1rem;
+  max-width: 360px;
+  height: 80px;
+}
